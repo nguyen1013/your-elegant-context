@@ -10,7 +10,7 @@ export default function Header() {
   const cartQuantity = items.length;
 
   function handleOpenCartClick() {
-    modal.current.open();
+    modal.current.showModal();
   }
 
   let modalActions = <button>Close</button>;
